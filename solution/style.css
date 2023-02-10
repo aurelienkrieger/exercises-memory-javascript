@@ -1,0 +1,26 @@
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(100, 200, 200);
+}
+
+.grid{
+  max-width: 800px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.card{
+  border: 0.1rem solid rgb(0, 0, 0);
+  padding: 0.5%;
+  background-color: rgb(255, 255, 255);
+}
+
+.card img{
+  max-width: 100%;
+}
